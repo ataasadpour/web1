@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: Vazirmatn;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* header */
+.logo {
+    font-size: 24px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #f0a500;
+}
+
+/* hero */
+
+
+.hero {
+    width: 100%;
+    display: flex;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.hero-img img {
+    width: 550px;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 17px;
+    margin-right: 22px;
+}
+
+.hero-title {
+    width: 50%;
+
+}
+
+.fill {
+    fill: #f7c32e !important;
+}
+
+.hero-title .h1-1 {
+    font-size: 52px;
+    margin-top: 59px;
+
+}
+
+.hero-title .h1-2 {
+    font-size: 52px;
+}
+
+.h1-wel {
+    position: relative;
+}
+
+.h1-wel svg {
+    position: absolute;
+    top: -3%;
+    left: 31%;
+    z-index: -1;
+}
+
+.hero-title p {
+    font-size: 24px;
+    width: 83%;
+    margin: 58px 27px 0 0;
+}
+
+
+/* about us */
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header-about {
+    background-color: #1e1e1e;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about-section {
+    background-color: #1e1e1e;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container-header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-section p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* contact */
+
+
+.container-contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #6200ea;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6200ea;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
